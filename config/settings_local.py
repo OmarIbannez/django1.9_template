@@ -1,7 +1,7 @@
-from config.settings_base import *
+from config.settings import *
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'to^m7112x8gi0+05(vde#b2!sl*j_s9qyjx_&mht1okt0h_$^w'
+SECRET_KEY = 'YOU NEED A SECRET_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
