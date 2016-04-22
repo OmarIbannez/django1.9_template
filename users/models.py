@@ -8,7 +8,7 @@ class User(AbstractUser):
 
     def photo_url(self):
         if not self.photo or not hasattr(self.photo, 'url'):
-        '''You need to add a deafault photo'''
+            '''You need to add a deafault photo'''
             return '/static/img/default_photo.png'
         return self.photo.url
 
